@@ -1,0 +1,20 @@
+#!/bin/sh
+#By: isca
+#Ctba 11/11/15
+#### This make package for arch-miner
+
+#files="/bin/yam* /bin/minerd /etc/mkinitcpio.conf"
+files=""1" "2" "3" "4" "5""
+#pkg="/root/aminer.tgz"
+pkg="./aminer.tar"
+
+for file in $files
+do
+	if [ ! -e $pkg ]
+	then
+		tar cvf $pkg $file
+	fi
+	tar rvf $pkg $file
+done
+
+exit 0
