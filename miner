@@ -5,7 +5,7 @@
 #
 #
 #colors
-BPTH="./"
+BPTH="/bin/"
 echo -ne "				CHOOSE MINER
 				------------------------------
 			Option          Description                  

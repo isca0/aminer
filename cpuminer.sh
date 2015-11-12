@@ -2,11 +2,11 @@
 read -p "minerd-aes minerd? " comando
 read -p "FCN+BCN FCN+XMR FCN+QCN FCN+XDN FCN+AEON FCN+DSH FCN+INF8 MCN+BCN MCN+XMR MCN+QCN MCN+XDN MCN+AEON MCN+DSH MCN+INF8? " coin 
 read -p "usuario ex: fulano@gmail.com " user
-read -p "senha " pass
+read -s -p "senha: " pass
 
 if [ $coin == "FCN+BCN" ]
 then
-	${comando} -a cryptonight -o stratum+tcp://fcn-bcn.pool.minergate.com:45580 -u "$user" -p "$pass"
+	echo $comando -a cryptonight -o stratum+tcp://fcn-bcn.pool.minergate.com:45580 -u "$user" -p "$pass"
 fi
 
 if [ $coin == "FCN+XMR" ]

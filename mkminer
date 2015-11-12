@@ -3,8 +3,8 @@
 #Ctba 11/11/15
 #### This make package for arch-miner
 
-files=""/bin/yam*" "/bin/minerd" "/etc/mkinitcpio.conf" "/lib/initcpio/hooks/mine" "/lib/initcpio/install/network" "/lib/initcpio/hooks/network" "/lib/initcpio/install/mine" "/boot/isca.img""
-pkg="/root/aminer.tgz"
+files=""/bin/yam*" "/bin/minerd" "/bin/minerd-aes" "/etc/mkinitcpio.conf" "/lib/initcpio/hooks/mine" "/lib/initcpio/install/network" "/lib/initcpio/hooks/network" "/lib/initcpio/install/mine""
+pkg="/root/aminer.tar"
 
 for file in $files
 do
