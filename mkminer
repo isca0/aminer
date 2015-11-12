@@ -3,7 +3,7 @@
 #Ctba 11/11/15
 #### This make package for arch-miner
 
-files=""/bin/yam*" "/bin/minerd" "/etc/mkinitcpio.conf" "/boot/isca.img""
+files=""/bin/yam*" "/bin/minerd" "/etc/mkinitcpio.conf" "/lib/initcpio/hooks/mine" "/lib/initcpio/install/network" "/lib/initcpio/install/mine" "/boot/isca.img""
 pkg="/root/aminer.tgz"
 
 for file in $files
