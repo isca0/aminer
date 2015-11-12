@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 #
 #	Menu de Para Automatizar o Uso do Sistema.
@@ -10,10 +10,9 @@ echo -ne "				CHOOSE MINER
 				------------------------------
 			Option          Description                  
 			=====           =========                   
-			(1)             ccminer.         
-			(2)             yam-generic.            
-			(3)             cpuminer.         
-			(v)             Notas do Autor.             
+			(1)             ccminer         
+			(2)             yam            
+			(3)             cpuminer         
 
 "
 
@@ -32,17 +31,6 @@ in
 ;;
 3)
 "$BPTH"cpuminer.sh
-;;
-v|V)
-clear
-"$BPTH"gisb
-tput bold
-read -p "
-			Pressione ENTER para Continuar...
-"
-;;
-x|X)
-break
 ;;
 *)
 echo -e "\033[32;40mOps... So uma das opcoes acima podem ser usadas...\033[0m"
