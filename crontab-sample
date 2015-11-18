@@ -1,0 +1,4 @@
+19 20 * * 1,2,3,4,5 /usr/local/bin/killer.sh
+21 20 * * 1,2,3,4,5 /usr/local/bin/cpuminer.sh
+04 7 * * 1,2,3,4,5 /usr/local/bin/killer.sh
+05 7 * * 1,2,3,4,5 /usr/local/bin/dayminer.sh
